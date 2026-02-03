@@ -5,5 +5,5 @@
   "showSpace": true,
   "showSingleSpace": true,
   "showTrailingSpace": true,
-  "showStrictLineBreak": true
+  "showStrictLineBreak": false
 }

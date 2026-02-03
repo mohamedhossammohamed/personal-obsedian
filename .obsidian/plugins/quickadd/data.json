@@ -39,7 +39,13 @@
             "focus": true
           },
           "openFile": false,
-          "openFileInMode": "default"
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "3ab3c912-c837-441e-b411-98205f9172d1",
@@ -74,7 +80,13 @@
             "focus": true
           },
           "openFile": true,
-          "openFileInMode": "default"
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "995f7631-c67b-40f0-8ea7-8538c5b216fa",
@@ -109,7 +121,13 @@
             "focus": true
           },
           "openFile": false,
-          "openFileInMode": "default"
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "90f4db1e-6678-4b18-8a4f-267b840bf636",
@@ -144,7 +162,13 @@
             "focus": true
           },
           "openFile": true,
-          "openFileInMode": "default"
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "0a3555d1-4392-4ae8-9b74-ee1f83de60d2",
@@ -179,7 +203,13 @@
             "focus": true
           },
           "openFile": true,
-          "openFileInMode": "default"
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         }
       ],
       "collapsed": false
@@ -223,7 +253,13 @@
             "focus": true
           },
           "openFile": true,
-          "openFileInMode": "default"
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "123bcf64-17f4-4405-8e7c-05a26daabdfa",
@@ -258,7 +294,13 @@
             "focus": true
           },
           "openFile": true,
-          "openFileInMode": "default"
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "96917cbb-f169-4448-aa0f-767258a15e02",
@@ -293,7 +335,13 @@
             "focus": true
           },
           "openFile": true,
-          "openFileInMode": "default"
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "4e069106-0b50-4db3-8a84-8daba5d26caf",
@@ -328,101 +376,227 @@
             "focus": true
           },
           "openFile": true,
-          "openFileInMode": "default"
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         }
       ]
-    }
-  ],
-  "macros": [
+    },
     {
+      "id": "8bdb7cb6-0a94-4c6b-910b-6986c3dff77b",
       "name": "TaskSync",
-      "id": "0808cd06-f809-434f-91b9-db4aca7dfb2c",
-      "commands": [
-        {
-          "name": "tasksync::SelectFromAllTasks",
-          "type": "UserScript",
-          "id": "ea8aebe5-e3b2-4e74-8bd5-496e68703195",
-          "path": "_Scripts/tasksync.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "id": "0808cd06-f809-434f-91b9-db4aca7dfb2c",
+        "name": "TaskSync",
+        "commands": [
+          {
+            "name": "tasksync::SelectFromAllTasks",
+            "type": "UserScript",
+            "id": "ea8aebe5-e3b2-4e74-8bd5-496e68703195",
+            "path": "_Scripts/tasksync.js",
+            "settings": {}
+          }
+        ]
+      }
     },
     {
+      "id": "beec5a50-90cb-4694-9a0f-deec1a6acfd1",
       "name": "JournalSync",
-      "id": "6572ca9c-7948-4004-b466-dbc5d3b90f05",
-      "commands": [
-        {
-          "name": "journalsync::SelectFromAllTasks",
-          "type": "UserScript",
-          "id": "b363a144-1e37-4093-b9db-ff32c4373bab",
-          "path": "_Scripts/journalsync.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "id": "6572ca9c-7948-4004-b466-dbc5d3b90f05",
+        "name": "JournalSync",
+        "commands": [
+          {
+            "name": "journalsync::SelectFromAllTasks",
+            "type": "UserScript",
+            "id": "b363a144-1e37-4093-b9db-ff32c4373bab",
+            "path": "_Scripts/journalsync.js",
+            "settings": {}
+          }
+        ]
+      }
     },
     {
+      "id": "1f70b91e-0517-45c0-85db-52d171568d21",
       "name": "PassionSync",
-      "id": "056d1b13-02cb-4e52-9e7b-9db7ba22c28e",
-      "commands": [
-        {
-          "name": "passionsync::SelectFromAllTasks",
-          "type": "UserScript",
-          "id": "65d06f67-4d48-42b7-8d30-8a923d0fef19",
-          "path": "_Scripts/passionsync.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "id": "056d1b13-02cb-4e52-9e7b-9db7ba22c28e",
+        "name": "PassionSync",
+        "commands": [
+          {
+            "name": "passionsync::SelectFromAllTasks",
+            "type": "UserScript",
+            "id": "65d06f67-4d48-42b7-8d30-8a923d0fef19",
+            "path": "_Scripts/passionsync.js",
+            "settings": {}
+          }
+        ]
+      }
     },
     {
+      "id": "f369f8ff-f974-42da-aeb5-d3d7e85fd73f",
       "name": "SomedaySync",
-      "id": "ac956cf2-1acb-4196-96ea-962b3408babb",
-      "commands": [
-        {
-          "name": "somedaysync::SelectFromAllTasks",
-          "type": "UserScript",
-          "id": "5041ee03-8382-4959-98cc-4ef920a5bba7",
-          "path": "_Scripts/somedaysync.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "id": "ac956cf2-1acb-4196-96ea-962b3408babb",
+        "name": "SomedaySync",
+        "commands": [
+          {
+            "name": "somedaysync::SelectFromAllTasks",
+            "type": "UserScript",
+            "id": "5041ee03-8382-4959-98cc-4ef920a5bba7",
+            "path": "_Scripts/somedaysync.js",
+            "settings": {}
+          }
+        ]
+      }
     },
     {
+      "id": "24f6fa12-579c-4fb8-9c90-ebd3d11a677b",
       "name": "ProjectSync",
-      "id": "ade00d0a-42d1-4dd3-9bdf-1b3ad5d1cdc8",
-      "commands": [
-        {
-          "name": "projectsync::SelectFromAllTasks",
-          "type": "UserScript",
-          "id": "e8d6634f-68b1-49e1-b5e6-976189b1a2b6",
-          "path": "_Scripts/projectsync.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "id": "ade00d0a-42d1-4dd3-9bdf-1b3ad5d1cdc8",
+        "name": "ProjectSync",
+        "commands": [
+          {
+            "name": "projectsync::SelectFromAllTasks",
+            "type": "UserScript",
+            "id": "e8d6634f-68b1-49e1-b5e6-976189b1a2b6",
+            "path": "_Scripts/projectsync.js",
+            "settings": {}
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",
+  "persistInputPromptDrafts": true,
+  "useSelectionAsCaptureValue": true,
   "devMode": false,
   "templateFolderPath": "5-Templates",
-  "announceUpdates": true,
-  "version": "1.4.0",
+  "announceUpdates": "all",
+  "version": "2.10.0",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
+  "showCaptureNotification": true,
+  "showInputCancellationNotification": false,
+  "enableTemplatePropertyTypes": false,
+  "dateAliases": {
+    "t": "today",
+    "tm": "tomorrow",
+    "yd": "yesterday",
+    "nw": "next week",
+    "nm": "next month",
+    "ny": "next year",
+    "lw": "last week",
+    "lm": "last month",
+    "ly": "last year"
+  },
   "ai": {
-    "OpenAIApiKey": "",
     "defaultModel": "Ask me",
     "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
     "promptTemplatesFolderPath": "",
-    "showAssistant": true
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ],
+        "autoSyncModels": false,
+        "modelSource": "modelsDev"
+      },
+      {
+        "name": "Gemini",
+        "endpoint": "https://generativelanguage.googleapis.com",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gemini-1.5-pro",
+            "maxTokens": 1000000
+          },
+          {
+            "name": "gemini-1.5-flash",
+            "maxTokens": 1000000
+          },
+          {
+            "name": "gemini-1.5-flash-8b",
+            "maxTokens": 1000000
+          }
+        ],
+        "autoSyncModels": false,
+        "modelSource": "modelsDev"
+      }
+    ]
   },
   "migrations": {
     "migrateToMacroIDFromEmbeddedMacro": true,
     "useQuickAddTemplateFolder": true,
     "incrementFileNameSettingMoveToDefaultBehavior": true,
     "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
-    "setVersionAfterUpdateModalRelease": true
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true,
+    "backfillFileOpeningDefaults": true,
+    "setProviderModelDiscoveryMode": true,
+    "migrateProviderApiKeysToSecretStorage": true
   }
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5-Templates/Areas.md",
+                "file": "GEMINI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Areas"
+              "title": "GEMINI"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-Templates/Areas.md",
+                "file": "GEMINI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Areas"
+              "title": "Backlinks for GEMINI"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-Templates/Areas.md",
+                "file": "GEMINI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Areas"
+              "title": "Outgoing links from GEMINI"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-Templates/Areas.md",
+                "file": "GEMINI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Areas"
+              "title": "Outline of GEMINI"
             }
           },
           {
@@ -171,8 +171,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ]
@@ -196,7 +196,17 @@
   },
   "active": "cb2557ac1c5d71b7",
   "lastOpenFiles": [
-    "GEMINI.md",
-    "Journal 2024 📔.md"
+    "5-Templates/Untitled.md",
+    "5-Templates/Areas.md",
+    "5-Templates/Filename-Template.md",
+    "-Periodic-Notes/Quarterly-Notes.md",
+    "-Periodic-Notes/Yearly-Notes.md",
+    "-Periodic-Notes/Weekly-Notes.md",
+    "-Periodic-Notes/Invalid date.md",
+    "-Periodic-Notes/Areas.md",
+    "README.md",
+    "Someday Maybe 💭.md",
+    "Journal 2024 📔.md",
+    "GEMINI.md"
   ]
 }

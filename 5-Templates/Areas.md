@@ -7,6 +7,28 @@ tags: areas
 aliases: 
 share: false 
 ---
+---
+title: Areas
+date: 2026-02-03 22:24:00
+lastmod: 2026-02-03 22:24:00
+categories: 
+tags: areas
+aliases: 
+share: false 
+---
+
+# Areas
+
+## Projects 🎯
+
+
+
+## Recurring 🔁
+
+
+
+## Archives 🗃️
+
 
 # Areas
 
