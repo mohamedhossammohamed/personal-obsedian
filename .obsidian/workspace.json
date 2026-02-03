@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "-Periodic-Notes/Invalid date.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "Invalid date"
             }
           }
         ]
@@ -191,11 +191,13 @@
       "bases:Create new base": false,
       "periodic-notes:Open today": false,
       "obsidian-omnivore:Omnivore": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "cb2557ac1c5d71b7",
   "lastOpenFiles": [
+    "GEMINI.md",
     "5-Templates/Untitled.md",
     "5-Templates/Areas.md",
     "5-Templates/Filename-Template.md",
@@ -206,7 +208,6 @@
     "-Periodic-Notes/Areas.md",
     "README.md",
     "Someday Maybe 💭.md",
-    "Journal 2024 📔.md",
-    "GEMINI.md"
+    "Journal 2024 📔.md"
   ]
 }
